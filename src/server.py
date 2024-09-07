@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, HttpUrl
-from api_agent import api_agent, fetch_metrics_from_api
-from api_chatbot_agent import handle_conversation  # Import the chatbot handler
+from src.api_agent import api_agent, fetch_metrics_from_api
+from src.api_chatbot_agent import handle_conversation  # Import the chatbot handler
 from fastapi.middleware.cors import CORSMiddleware
 
 
