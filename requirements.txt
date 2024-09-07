@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pydantic
+scikit-learn
+pandas
+numpy
+python-dotenv
+pickle-mixin
+langchain
+langchain-community
+whitenoise
+langchain
+
